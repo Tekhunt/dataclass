@@ -1,7 +1,4 @@
-# create instances and call methods
-
 from engr_class import SoftwareEngineer
-
 
 smith = SoftwareEngineer("Private Smith")
 print('Instance of smith =>',smith)

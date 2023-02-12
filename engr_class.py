@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-
 from tech_class import Technology
 
 @dataclass
@@ -24,4 +23,3 @@ class SoftwareEngineer:
         if self.skills:
             return self.skills
         return 'No skills added'
-
